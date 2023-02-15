@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.app {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.dog-img-window {
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.dog-img-window img {
+   width: 400px;
+   height: 400px;
+}
+
+select {
+    display: flex;
+    width: 200px;
+    margin-top: 10px;
+}
